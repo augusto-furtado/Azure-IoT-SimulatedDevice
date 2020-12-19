@@ -19,7 +19,7 @@ namespace SimulatedDevice1
 
         //Device String Connection - Use this or DPS info above to connect the device - add GatewayHostName at the end if a downstream device using a Edge Gateway
         //private static string deviceStringConnection = "";
-        private static string deviceStringConnection = "HostName=iothubbyaugusto.azure-devices.net;DeviceId=device1;SharedAccessKey=bGyzWD5D04IOJDSiRK13tYHizgrMqBFa+MfwEB+eauo=;GatewayHostName=52.184.226.192";
+        private static string deviceStringConnection = "HostName=iothubbyaugusto.azure-devices.net;DeviceId=device1;SharedAccessKey=bGyzWD5D04IOJDSiRK13tYHizgrMqBFa+MfwEB+eauo=;GatewayHostName=192.168.86.77";
 
         private static int counter = 0;
 
