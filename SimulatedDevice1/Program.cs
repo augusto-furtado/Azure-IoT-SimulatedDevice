@@ -10,7 +10,7 @@ namespace SimulatedDevice1
     class Program
     {
         //DPS Scope ID
-        private static string s_idScope = "0ne001D027F";//Environment.GetEnvironmentVariable("DPS_IDSCOPE");
+        private static string s_idScope = "teste";//Environment.GetEnvironmentVariable("DPS_IDSCOPE");
         //keys from DPS enrollment group. 
         private const string enrollmentGroupPrimaryKey = "teste";
         private const string enrollmentGroupSecondaryKey = "teste";
