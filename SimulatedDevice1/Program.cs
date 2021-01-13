@@ -10,16 +10,16 @@ namespace SimulatedDevice1
     class Program
     {
         //DPS Scope ID
-        private static string s_idScope = "0ne001D027F";//Environment.GetEnvironmentVariable("DPS_IDSCOPE");
+        private static string s_idScope = "teste";//Environment.GetEnvironmentVariable("DPS_IDSCOPE");
         //keys from DPS enrollment group. 
-        private const string enrollmentGroupPrimaryKey = "rm0nn0eXSMkHN28tL8L4Oz14LAUSHu89wYrUIKqdfwJqycLZzByiPmomkUKNb1EYyL1CpdzTAtTHMYjNIazfKA==";
-        private const string enrollmentGroupSecondaryKey = "esdkeRPptdT7LPYtc3xVjoblWLlysMH0mW4Z8grNOTISDLwlxVOW2DBJOorma4UQDt/zyu4lHPSBPhjwt0yfuQ==";
+        private const string enrollmentGroupPrimaryKey = "teste";
+        private const string enrollmentGroupSecondaryKey = "teste";
         //Registration Id for this Device - required if using DPS
         private static string registrationId = "device1";
 
         //Device String Connection - Use this or DPS info above to connect the device - add GatewayHostName at the end if a downstream device using a Edge Gateway
         //private static string deviceStringConnection = "";
-        private static string deviceStringConnection = "HostName=iothubbyaugusto.azure-devices.net;DeviceId=device1;SharedAccessKey=bGyzWD5D04IOJDSiRK13tYHizgrMqBFa+MfwEB+eauo=;GatewayHostName=52.184.226.192";
+        private static string deviceStringConnection = "HostName=teste.azure-devices.net;DeviceId=device1;SharedAccessKey=teste;GatewayHostName=192.168.86.77";
 
         private static int counter = 0;
 
